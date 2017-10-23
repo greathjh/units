@@ -57,11 +57,10 @@ typedef NS_ENUM(NSInteger, PMRequestMethod) {
  
  @param servicePath 服务器 API 地址
  @param requestMethod 请求方式
- @param authorizationUsername 用户名
- @param uathorizationPassword 密码
+ @param username 用户名
+ @param password 密码
  @param httpHeader 请求头
  @param parameters 参数
- @param acquirePolicy 读取数据策略
  @param successBlock 请求成功回调
  @param failureBlock 请求失败回调
  @return NSURLSessionTask
@@ -80,9 +79,8 @@ typedef NS_ENUM(NSInteger, PMRequestMethod) {
  
  @param servicePath 请求servicePath
  @param httpBody 请求httpBody
- @param authorizationUsername 请求用户名
- @param uathorizationPassword 密码
- @return NSURLSessionTask
+ @param username 请求用户名
+ @param password 密码
  */
 - (void)dataTaskWithServicePath:(NSURL *)servicePath
                        httpBody:(NSString *)httpBody
