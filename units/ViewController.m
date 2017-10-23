@@ -12,6 +12,8 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) NSMutableArray *list;
+
 @end
 
 @implementation ViewController
