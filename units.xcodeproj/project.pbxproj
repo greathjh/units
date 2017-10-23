@@ -19,6 +19,13 @@
 		041130A01F9C575A00176C67 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411309D1F9C575A00176C67 /* NSArray+Safe.m */; };
 		041130A11F9C575A00176C67 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0411309F1F9C575A00176C67 /* NSMutableArray+Safe.m */; };
 		16ADA97E60224A647FD97C6A /* Pods_units.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DF1B042BC81731B935CE3D /* Pods_units.framework */; };
+		B5A0CBF61F9DA7AA005D231C /* AFRememberingSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBF21F9DA2F2005D231C /* AFRememberingSecurityPolicy.m */; };
+		B5A0CBF71F9DA7B6005D231C /* NSMutableURLRequest+Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBE31F9D9B3C005D231C /* NSMutableURLRequest+Auth.m */; };
+		B5A0CBF81F9DA7BC005D231C /* HttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBF41F9DA2F2005D231C /* HttpRequestManager.m */; };
+		B5A0CBF91F9DA7CC005D231C /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBEC1F9D9B55005D231C /* NSDate+Helper.m */; };
+		B5A0CBFA1F9DA7D0005D231C /* NSData+HexString.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBEF1F9D9B55005D231C /* NSData+HexString.m */; };
+		B5A0CBFB1F9DA7D4005D231C /* Reachability+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBE81F9D9B3C005D231C /* Reachability+URL.m */; };
+		B5A0CBFC1F9DA7D7005D231C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = B5A0CBE61F9D9B3C005D231C /* Reachability.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,12 +70,6 @@
 		0411309E1F9C575A00176C67 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+Safe.h"; path = "safe_object/NSMutableArray+Safe.h"; sourceTree = "<group>"; };
 		0411309F1F9C575A00176C67 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+Safe.m"; path = "safe_object/NSMutableArray+Safe.m"; sourceTree = "<group>"; };
 		81B2D72CF887BF64D47D66F4 /* Pods-units.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-units.release.xcconfig"; path = "Pods/Target Support Files/Pods-units/Pods-units.release.xcconfig"; sourceTree = "<group>"; };
-		B5A0CBD91F9D9A87005D231C /* AFRememberingSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFRememberingSecurityPolicy.h; sourceTree = "<group>"; };
-		B5A0CBDA1F9D9A87005D231C /* AFRememberingSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFRememberingSecurityPolicy.m; sourceTree = "<group>"; };
-		B5A0CBDB1F9D9A87005D231C /* HttpRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
-		B5A0CBDC1F9D9A87005D231C /* HttpRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestManager.m; sourceTree = "<group>"; };
-		B5A0CBE01F9D9B3B005D231C /* AFRememberingSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFRememberingSecurityPolicy.m; sourceTree = "<group>"; };
-		B5A0CBE11F9D9B3B005D231C /* AFRememberingSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFRememberingSecurityPolicy.h; sourceTree = "<group>"; };
 		B5A0CBE21F9D9B3C005D231C /* NSMutableURLRequest+Auth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableURLRequest+Auth.h"; sourceTree = "<group>"; };
 		B5A0CBE31F9D9B3C005D231C /* NSMutableURLRequest+Auth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableURLRequest+Auth.m"; sourceTree = "<group>"; };
 		B5A0CBE51F9D9B3C005D231C /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
@@ -81,6 +82,11 @@
 		B5A0CBEF1F9D9B55005D231C /* NSData+HexString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HexString.m"; sourceTree = "<group>"; };
 		B5A0CBF01F9D9B55005D231C /* NSObject+Data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Data.h"; sourceTree = "<group>"; };
 		B5A0CBF11F9D9B55005D231C /* NSObject+Data.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Data.m"; sourceTree = "<group>"; };
+		B5A0CBF21F9DA2F2005D231C /* AFRememberingSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFRememberingSecurityPolicy.m; sourceTree = "<group>"; };
+		B5A0CBF31F9DA2F2005D231C /* AFRememberingSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFRememberingSecurityPolicy.h; sourceTree = "<group>"; };
+		B5A0CBF41F9DA2F2005D231C /* HttpRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestManager.m; sourceTree = "<group>"; };
+		B5A0CBF51F9DA2F2005D231C /* HttpRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestManager.h; sourceTree = "<group>"; };
+		B5A0CBFD1F9DA80E005D231C /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		C9DF1B042BC81731B935CE3D /* Pods_units.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_units.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05B7D8FC0936A2186AB4164 /* Pods-units.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-units.debug.xcconfig"; path = "Pods/Target Support Files/Pods-units/Pods-units.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -143,6 +149,7 @@
 				041130901F9C553100176C67 /* safe_object */,
 				041130601F9C54FF00176C67 /* AppDelegate.h */,
 				041130611F9C54FF00176C67 /* AppDelegate.m */,
+				B5A0CBFD1F9DA80E005D231C /* Command.h */,
 				041130631F9C54FF00176C67 /* ViewController.h */,
 				041130641F9C54FF00176C67 /* ViewController.m */,
 				041130661F9C54FF00176C67 /* Main.storyboard */,
@@ -221,18 +228,16 @@
 		B5A0CBD81F9D9A87005D231C /* AFNetworkingHelper */ = {
 			isa = PBXGroup;
 			children = (
-				B5A0CBE11F9D9B3B005D231C /* AFRememberingSecurityPolicy.h */,
-				B5A0CBE01F9D9B3B005D231C /* AFRememberingSecurityPolicy.m */,
+				B5A0CBF31F9DA2F2005D231C /* AFRememberingSecurityPolicy.h */,
+				B5A0CBF21F9DA2F2005D231C /* AFRememberingSecurityPolicy.m */,
+				B5A0CBF51F9DA2F2005D231C /* HttpRequestManager.h */,
+				B5A0CBF41F9DA2F2005D231C /* HttpRequestManager.m */,
 				B5A0CBE21F9D9B3C005D231C /* NSMutableURLRequest+Auth.h */,
 				B5A0CBE31F9D9B3C005D231C /* NSMutableURLRequest+Auth.m */,
 				B5A0CBE51F9D9B3C005D231C /* Reachability.h */,
 				B5A0CBE61F9D9B3C005D231C /* Reachability.m */,
 				B5A0CBE91F9D9B3C005D231C /* Reachability+URL.h */,
 				B5A0CBE81F9D9B3C005D231C /* Reachability+URL.m */,
-				B5A0CBD91F9D9A87005D231C /* AFRememberingSecurityPolicy.h */,
-				B5A0CBDA1F9D9A87005D231C /* AFRememberingSecurityPolicy.m */,
-				B5A0CBDB1F9D9A87005D231C /* HttpRequestManager.h */,
-				B5A0CBDC1F9D9A87005D231C /* HttpRequestManager.m */,
 			);
 			path = AFNetworkingHelper;
 			sourceTree = "<group>";
@@ -450,6 +455,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5A0CBFC1F9DA7D7005D231C /* Reachability.m in Sources */,
+				B5A0CBFB1F9DA7D4005D231C /* Reachability+URL.m in Sources */,
+				B5A0CBFA1F9DA7D0005D231C /* NSData+HexString.m in Sources */,
+				B5A0CBF91F9DA7CC005D231C /* NSDate+Helper.m in Sources */,
+				B5A0CBF81F9DA7BC005D231C /* HttpRequestManager.m in Sources */,
+				B5A0CBF71F9DA7B6005D231C /* NSMutableURLRequest+Auth.m in Sources */,
+				B5A0CBF61F9DA7AA005D231C /* AFRememberingSecurityPolicy.m in Sources */,
 				0411309B1F9C55E000176C67 /* EXTScope.m in Sources */,
 				041130A01F9C575A00176C67 /* NSArray+Safe.m in Sources */,
 				041130A11F9C575A00176C67 /* NSMutableArray+Safe.m in Sources */,

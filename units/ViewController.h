@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, nonnull, copy) NSString *ignoreSSLCertificate;
+@property (nonatomic, nonnull, copy) NSString *openHABUsername;
+@property (nonatomic, nonnull, copy) NSString *openHABPassword;
 
 @end
 
