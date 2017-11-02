@@ -31,6 +31,7 @@
 
 //http请求实例
 - (void)getSitemapsbyUrl{
+    NSString *aaa;
     NSString *sitemapsUrlString = [NSString stringWithFormat:@"%@/rest/sitemaps", @"https://192.168.6.43:3000"];
     HttpRequestManager *httpManager = [HttpRequestManager manager];
     [httpManager.requestSerializer setAuthorizationHeaderFieldWithUsername:self.openHABUsername password:self.openHABPassword];
